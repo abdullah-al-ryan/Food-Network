@@ -1,8 +1,8 @@
-#font
+.font
 {
     font-family: 'Poppins', sans-serif;
     display: flex;
-    margin: 0;
+    
 }
 .half_part
 {
@@ -14,14 +14,56 @@
 }
 .half_part img
 {
-    width: 60%;
+    width: 70%;
 }
 #order
 {  
     text-decoration: none;
-    font-weight: 590;
+    font-weight: 690;
     color: white;
     background-image: linear-gradient(orangered,salmon);
     padding: 10px 25px 10px 25px;
     border-radius: 35px;
+}
+#imagine
+{
+    padding-top: 5%;
+    padding-bottom: 5%;"
+}
+.bottom
+{
+    background-image: url(7.png);
+    background-repeat: no-repeat;
+    padding-right: 20%;
+    margin-left: 3%;
+}
+#flexible
+{
+    padding-left: 15%;
+    padding-top: 60px;
+    
+}
+#flexible img
+{
+    width: 60%;
+}
+.services
+{
+    text-align: center;
+    padding-bottom: 5px;
+}
+#cuisine
+{
+    padding-right: 35%;
+    padding-left: 35%;
+}
+footer h2 
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer p{
+    color: white;
+    background-color: black;
 }
