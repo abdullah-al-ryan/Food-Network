@@ -77,6 +77,11 @@ body
     margin-top: 2%;
     margin-bottom: 2%;
 }
+#popular
+{
+    font-size: 30px;
+    padding-bottom: 2%;
+}
 #footer .container 
 {
     margin-top: 5%;
@@ -118,8 +123,6 @@ body
     box-shadow: 10px 10px 40px rgba(255, 59, 0, 0.2);
     text-align: center;
     color: rgb(202, 70, 70);
-    
-    
 }
 .pizzaperi img
 {
@@ -129,4 +132,42 @@ body
 .click
 {
     margin-bottom: 3%;
+}
+
+#app .container
+{
+    display: flex;
+    background-image: url(foods/Frame1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 40px;
+    height: auto;
+    margin: 70px auto;
+    border-radius: 15px;  
+}
+#left
+{
+    width: 40%;
+}
+#right{
+    width: 30%;
+    padding-right: 20%;
+    padding-top: 5%;
+}
+#right h2
+{
+    font-size: 50px;
+    font-weight: 700;   
+}
+
+#right img
+{
+    border-radius: 5px;
+    width: 50%;
+    padding-right: 40px;
+}
+#left img
+{
+    padding: 8% 5% 8% 5%;
+    width: 100%;
 }
