@@ -1,7 +1,22 @@
-.font
+body
 {
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.font
+{
     display: flex;
+    justify-content: space-between;
+}
+.onethird
+{
+    width: 30%;
+    height: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px 1px gray;
     
 }
 .half_part
@@ -45,7 +60,7 @@
 }
 #flexible img
 {
-    width: 60%;
+    width: 62.5%;
 }
 .services
 {
@@ -67,3 +82,9 @@ footer p{
     color: white;
     background-color: black;
 }
+
+.onethird img
+{
+    width: 100%;
+}
+
